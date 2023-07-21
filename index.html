@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ankur Fitness</title>
+  </head>
+  <link rel="stylesheet" href="CSS/Style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto:ital,wght@1,300&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      color: aliceblue;
+      margin: 0px;
+      padding: 0px;
+      background: url(imag/img1.jpg);
+    }
+    .left {
+      display: inline-block;
+      border: 1px dashed red;
+      position: absolute;
+      left: 1pc;
+      top: 10px;
+
+      border: 2px solid darkgoldenrod;
+    }
+    .left img {
+      width: 70px;
+      filter: invert(100%);
+    }
+    .mid {
+      display: block;
+      width: 45%;
+      margin: 10px auto;
+      font-family: "Baloo Bhaina 2", cursive;
+    }
+    .right {
+      display: inline-block;
+      border: 2px dashed green;
+      position: absolute;
+      right: 1px;
+      top: 10px;
+    }
+    .nav {
+      display: inline-block;
+    }
+    .nav li {
+      display: inline-block;
+      font-size: 16px;
+    }
+    .nav li a {
+      color: rgb(225, 238, 250);
+      text-decoration: none;
+      padding: 30px 24px;
+    }
+    .nav li a:hover {
+      color: rgb(247, 40, 40);
+    }
+    .btn {
+      margin: 5px;
+      padding: 5px;
+      background-color: black;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      color: blue;
+      background-color: aqua;
+      font-family: "Baloo Bhaina 2", cursive;
+    }
+    .contaner {
+
+
+      padding: 34px;
+      margin: 39px;
+    }
+    .form_group {
+      margin: 12px;
+      padding: 20px;
+    }
+    .form_group input {
+      text-align: center;
+      display: block;
+      border: 2px solid black;
+      width: 333px;
+      padding: 10px;
+      margin: 1px auto;
+    }
+    .contaner h1 {
+      text-align: center;
+    }
+    .
+  </style>
+  <body>
+    <header class="header">
+      <div class="left">
+        <img src="imag/img3.jpg" alt="pic" />
+      </div>
+      <div class="mid">
+        <ul class="nav">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Fitness Calculator</a></li>
+          <li><a href="#">Contack us</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <button class="btn">Call us now</button
+        ><button class="btn">Email</button>
+      </div>
+    </header>
+    <div class="contaner">
+      <h1>Join Best gym of Delhi</h1>
+      <form action="noacttion.jsp">
+        <div class="form_group">
+          <input type="text" placeholder="enter the name" /><br />
+          <input type="text" placeholder="enter the name" /><br />
+
+          <input type="text" placeholder="enter the name" /><br />
+
+          <input type="text" placeholder="enter the name" /> <br />
+          <input type="button" value="submit" /> <br />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
